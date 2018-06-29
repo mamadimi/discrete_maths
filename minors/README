@@ -1,0 +1,10 @@
+Find if a graph A is minor of a graph B.
+In graph theory, an undirected graph H is called a minor of the graph G if H 
+can be formed from G by deleting edges and vertices and by contracting edges.
+
+According to Wagner's theorem, a graph is planar if and only if the complete graph K5 or the complete bipartite graph K3,3 are minors of it.
+  
+-----------------------------------------------------------
+
+Compile :
+g++ -O3 minors.cpp -o minors 

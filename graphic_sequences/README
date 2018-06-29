@@ -1,0 +1,8 @@
+A sequence of N numbers, ordered from higher to lower, it's possible to represent a connected graph of N nodes.
+Use of Havel-Hakimi and Erdos-Galais algorithms to check this.
+
+If there is such a graph, the adjacency matrix is calculated.
+
+----------
+Compile:
+g++ graphic_sequences.cpp -o graph_seq -O3  
